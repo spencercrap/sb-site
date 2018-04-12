@@ -1,8 +1,8 @@
 
 body { 
-  overflow: hidden;
+  
   background: gray;
-  font-family: "Roboto Mono light", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
 
@@ -11,13 +11,13 @@ body {
   font-size: 10px;
   display: inline-block;
   position: absolute;
-  right: 50px;
+  right: 40px;
   top: 5px;
 }
 
 .menu li {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .menu a {
@@ -28,7 +28,7 @@ body {
 
 .logotipo {
   display: inline-block;
-  margin: auto;
+  margin: 0 0 0 40px;
 }
 
 .contenedor {
@@ -37,6 +37,14 @@ body {
   margin: auto;
   padding-top: 20px;
   padding-bottom: 40px;
+  position: relative;
+}
+
+.portafolio {
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .contenedor h1 {
