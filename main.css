@@ -1,18 +1,18 @@
 
-body { 
-  
-  background: gray;
+body {
+  background: white;
   font-family: 'Roboto Mono', monospace;
   margin: 0;
+  width: 1080px;
 }
 
 .menu {
-  color: #f4cde1;
+  color: gray;
   font-size: 10px;
   display: inline-block;
   position: absolute;
   right: 40px;
-  top: 5px;
+  top: 15px;
 }
 
 .menu li {
@@ -25,6 +25,11 @@ body {
   margin: 0 0 0 30px;
 }
 
+.menu:hover {
+  text-decoration: line-through;
+  color: aquamarine;
+}
+
 
 .logotipo {
   display: inline-block;
@@ -32,12 +37,10 @@ body {
 }
 
 .contenedor {
-  color: #f4cde1;
+  color: gray;
   width: 1080px;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  position: relative;
+  padding-top: 30px;
 }
 
 .portafolio {
@@ -47,9 +50,43 @@ body {
   flex-wrap: wrap;
 }
 
+.previews {
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.transicion {
+  transition: .3s;
+  transition-delay: ease;
+  opacity: .5;
+}
+
+.transicion h3 {
+  padding-top: 10px;
+  position: absolute;
+  color: white;
+  font-weight: 400;
+}
+
+.transicion:hover {
+  opacity: 1;
+  color: gray;
+}
+
+.about {
+  padding-left: 40px;
+}
+
+.about img {
+  width: 800px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .contenedor h1 {
   text-decoration: none;
-  text-decoration-color: #f4cde1;
+  text-decoration-color: gray;
   font-size: 24px;
   padding-top: 450px;
   margin-bottom: auto;
@@ -63,22 +100,19 @@ body {
 
 .contenedor h2 {
   font-size: 18px;
-  text-decoration-color: #f4cde1;
+  text-decoration-color: gray;
   margin-bottom: auto;
 }
 
 .contenedor p {
-  padding-bottom: 40px;
-  margin-top: 15px;
-  margin-left: 20px;
-  line-height: 21px;
-  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contenedor a {
-  color: #f4cde1;;
+  color: gray;
 }
 
 .intro {
-  width: 300px;
+  width: 850px;
 }
