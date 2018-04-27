@@ -33,7 +33,7 @@ body {
   color: #f3cde2;
   transition-duration: .0s;
   transition-timing-function: ease-in-out;
-  text-decoration: overline;
+  text-decoration: line-through;
 }
 
 .logotipo {
