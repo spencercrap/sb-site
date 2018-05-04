@@ -15,13 +15,13 @@ body {
   display: inline-block;
   position: absolute;
   top: 14px;
-  right: 300px;
+  left: 300px;
 }
 
 .menu li {
   display: inline-block;
-  font-size: 18px;
-  font-weight: 300;
+  font-size:20px;
+  font-weight: 400;
 }
 
 .menu a {
@@ -61,8 +61,8 @@ body {
 }
 
 .transicion {
-  transition-duration: .08s;
-  transition-timing-function: ease-in;
+  transition-duration: .2s;
+  transition-timing-function: ease;
   opacity: 1;
 }
 
@@ -115,6 +115,7 @@ body {
 .contenedor h2 {
   font-size: 18px;
   text-decoration-color: gray;
+  font-style: italic;
   margin-bottom: auto;
 }
 
@@ -122,6 +123,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: justify;
+  font-size: 21px;
 }
 
 .contenedor a {
@@ -130,12 +132,13 @@ body {
 
 .footer {
   padding-left: 40px;
+  padding-top: 40px;
   color: gray;
 }
 
 .footer a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 300;
   line-height: 25px;
 }
@@ -148,7 +151,7 @@ body {
 
 .about h2 {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 30px;
   text-decoration: none;
   color: #f3cde2;
 }
