@@ -1,21 +1,20 @@
 
 body {
-  background: white;
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   width: 1080px;
 }
 
 .header {
-  padding-bottom: 40px
+  padding-bottom: 25px;
 }
 
 .menu {
-  color: gray;
   display: inline-block;
   position: absolute;
-  top: 14px;
-  left: 300px;
+  top: 59px;
+  left: 190px;
+  
 }
 
 .menu li {
@@ -27,33 +26,45 @@ body {
 .menu a {
   text-decoration: none;
   margin: 0 0 0 15px;
+  color: #f3cde2;
 }
 
 .anim:hover {
-  color: #f3cde2;
-  transition-duration: .1s;
+  color: hotpink;
+  transition-duration: .2s;
   transition-timing-function: ease-in-out;
-  text-decoration: line-through;
-  transition: line-through
+  font-weight: 400;
 }
 
 .logotipo {
-  display: inline-block;
-  margin: 0 0 0 40px;
+  /*display: inline-block;*/
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+    background: #f3cde2;
+    margin: 30px 0 0 100px;
+}
+
+.logotipo:hover {
+  background: hotpink;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
 }
 
 .contenedor {
   color: gray;
-  width: 1080px;
   margin: auto;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .portafolio {
   display: flex;
-  width: 1000px;
-  flex-direction: row;
+  width: 800px;
+  height: 900px;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .previews {
@@ -82,7 +93,7 @@ body {
 }
 
 .about {
-  padding-left: 40px;
+  padding-left: 140px;
 }
 
 .about img {
@@ -128,12 +139,28 @@ body {
 }
 
 .contenedor a {
-  color: gray;
+  color: #f3cde2;
+}
+
+.line {
+  border-bottom: 1px solid #f3cde2;
+  margin-left: 135px;
+  margin-top: 41px;
+  margin-bottom: -70px;
+  width: 1220px;
+}
+
+.line2 {
+  border-bottom: 1px solid #f3cde2;
+  margin-left: 140px;
+  margin-top: -15px;
+  margin-bottom: 80px;
+  width: 1220px;
 }
 
 .footer {
-  padding-left: 40px;
-  padding-top: 40px;
+  padding-left: 134px;
+  padding-top: 0;
   color: gray;
 }
 
