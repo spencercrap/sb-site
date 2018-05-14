@@ -31,9 +31,10 @@ body {
 
 .anim:hover {
   color: #f3cde2;
-  transition-duration: .0s;
+  transition-duration: .1s;
   transition-timing-function: ease-in-out;
   text-decoration: line-through;
+  transition: line-through
 }
 
 .logotipo {
