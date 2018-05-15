@@ -6,41 +6,40 @@ body {
 }
 
 .header {
-  padding-bottom: 25px;
+  margin: 0;
 }
 
 .menu {
   display: inline-block;
   position: absolute;
   top: 59px;
-  left: 190px;
-  
+  right: 141px;
 }
 
 .menu li {
   display: inline-block;
-  font-size:20px;
+  font-size: 14px;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 6px;
 }
 
 .menu a {
   text-decoration: none;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 40px;
 }
 
 .anim:hover {
   color: hotpink;
   transition-duration: .2s;
   transition-timing-function: ease-in-out;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .logotipo {
   /*display: inline-block;*/
     border-radius: 50%;
-    width: 20px;
-    height: 20px; 
+    width: 15px;
+    height: 15px; 
     background: #f3cde2;
     margin: 30px 0 0 100px;
 }
@@ -143,17 +142,16 @@ body {
 }
 
 .line {
-  border-bottom: 1px solid #f3cde2;
+  border-bottom: 1px dotted #f3cde2;
   margin-left: 135px;
   margin-top: 41px;
-  margin-bottom: -70px;
+  margin-bottom: -85px;
   width: 1625px;
 }
 
 .line2 {
-  border-bottom: 1px solid #f3cde2;
+  border-bottom: 1px dotted #f3cde2;
   margin-left: 140px;
-  margin-top: -15px;
   margin-bottom: 80px;
   width: 1615px;
 }
@@ -166,10 +164,9 @@ body {
 
 .footer a {
   text-decoration: none;
-  font-size: 21px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 25px;
-  letter-spacing: 1px;
+  letter-spacing: 6px;
 }
 
 .intro {
