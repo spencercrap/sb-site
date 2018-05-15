@@ -20,13 +20,13 @@ body {
 .menu li {
   display: inline-block;
   font-size:20px;
-  font-weight: 400;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .menu a {
   text-decoration: none;
   margin: 0 0 0 15px;
-  color: #f3cde2;
 }
 
 .anim:hover {
@@ -68,8 +68,8 @@ body {
 }
 
 .previews {
-  margin-bottom: 5px;
-  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-right: 5px;
 }
 
 .transicion {
@@ -139,7 +139,7 @@ body {
 }
 
 .contenedor a {
-  color: #f3cde2;
+  color: gray;
 }
 
 .line {
@@ -147,7 +147,7 @@ body {
   margin-left: 135px;
   margin-top: 41px;
   margin-bottom: -70px;
-  width: 1220px;
+  width: 1625px;
 }
 
 .line2 {
@@ -155,7 +155,7 @@ body {
   margin-left: 140px;
   margin-top: -15px;
   margin-bottom: 80px;
-  width: 1220px;
+  width: 1615px;
 }
 
 .footer {
@@ -169,6 +169,7 @@ body {
   font-size: 21px;
   font-weight: 300;
   line-height: 25px;
+  letter-spacing: 1px;
 }
 
 .intro {
