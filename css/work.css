@@ -16,8 +16,7 @@ body {
   border: none;
   width: 12px;
   height: 12px;
-  /*background: linear-gradient(to left, white, #f3cde2);*/
-  background: #f3cde2;
+  background: #fac8d2;
   cursor: pointer;
   position: absolute;
   bottom: 34px;
@@ -52,7 +51,7 @@ body {
 }
 
 .anim:hover {
-  color: #f3cde2;
+  color: #fac8d2;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
   font-weight: 500;
@@ -60,7 +59,7 @@ body {
 }
 
 .anim2:hover {
-  color: #f3cde2;
+  color: #fac8d2;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
   font-weight: 500;
@@ -76,17 +75,41 @@ body {
 
 .portafolio {
   display: flex;
-  width: 805px;
+  width: 821px;
   height: 1250px;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  /*margin-top: 40px;*/
+}
+
+.titlePorta {
+  width: 821px;
+  margin: auto;
+  margin-top: -30px;
+  font-size: 30px;
+  color: gray;
+}
+
+.titlePorta h3 {
+  font-weight: 300;
+}
+
+.titlePorta span {
+  color: #fac8d2;
+  font-weight: 700;
+}
+
+.titlePorta p {
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: -30px;
+  margin-bottom: 40px;
 }
 
 .previews {
   margin-right: 4px;
+  margin-bottom: 5px;
 }
 
 .previews:hover {
@@ -145,13 +168,13 @@ body {
 }
 
 .line {
-  border-bottom: 2px solid #f3cde2;
+  border-bottom: 2px solid #fac8d2;
   margin:auto;
   width: 821px;
 }
 
 .line2 {
-  border-bottom: 2px solid #f3cde2;
+  border-bottom: 2px solid #fac8d2;
   margin: auto;
   width: 821px;
   margin-bottom: 100px;
@@ -180,7 +203,8 @@ body {
 }
 
 .footer span {
-  color: #f3cde2;
+  color: #fac8d2;
+  font-weight: 700;
 }
 
 .footer a {

@@ -16,8 +16,8 @@ body {
   border: none;
   width: 12px;
   height: 12px;
-  /*background: linear-gradient(to left, white, #f3cde2);*/
-  background: #f3cde2;
+  /*background: linear-gradient(to left, white, #fac8d2);*/
+  background: #fac8d2;
   cursor: pointer;
   position: absolute;
   bottom: 34px;
@@ -52,7 +52,7 @@ body {
 }
 
 .anim:hover {
-  color: #f3cde2;
+  color: #fac8d2;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
   font-weight: 500;
@@ -60,7 +60,7 @@ body {
 }
 
 .anim2:hover {
-  color: #f3cde2;
+  color: #fac8d2;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
   font-weight: 500;
@@ -159,13 +159,13 @@ body {
 }
 
 .line {
-  border-bottom: 2px solid #f3cde2;
+  border-bottom: 2px solid #fac8d2;
   margin:auto;
   width: 821px;
 }
 
 .line2 {
-  border-bottom: 2px solid #f3cde2;
+  border-bottom: 2px solid #fac8d2;
   margin: auto;
   width: 821px;
   margin-bottom: 100px;
@@ -186,7 +186,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   text-decoration: none;
-  color: #f3cde2;
+  color: #fac8d2;
 }
 .footer {
   width: 821px;
@@ -209,7 +209,8 @@ body {
 }
 
 .footer span {
-  color: #f3cde2;
+  color: #fac8d2;
+  font-weight: 700;
 }
 
 .footer a {
