@@ -12,22 +12,22 @@ body {
 }
 
 .button {
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   border: none;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   /*background: linear-gradient(to left, white, #fac8d2);*/
-  background: #fac8d2;
+  /*background: #fac8d2;*/
   cursor: pointer;
   position: absolute;
   bottom: 34px;
 }
 
 .button:hover {
-  background: black;
+  color: black;
   transition-duration: .7s;
   transition-timing-function: ease-in-out;
-  /*transform: rotate(350deg);*/
+  transform: rotate(360deg);
 }
 
 .menu {
@@ -64,8 +64,8 @@ body {
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
   font-weight: 500;
-  padding: 5px;
-  text-decoration: overline;
+  /*padding: 5px;*/
+  /*text-decoration: overline;*/
 }
 
 .contenedor {
