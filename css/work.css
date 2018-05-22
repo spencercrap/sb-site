@@ -76,12 +76,13 @@ body {
 
 .portafolio {
   display: flex;
-  width: 821px;
-  height: 600px;
+  width: 805px;
+  height: 1250px;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  /*margin-top: 40px;*/
 }
 
 .previews {
@@ -109,21 +110,6 @@ body {
 
 .transicion:hover {
   opacity: .7;
-}
-
-.about {
-  width: 821;
-  position: relative;
-  margin: auto;
-  margin-bottom: 60px;
-  margin-top: 40px;
-}
-
-.about img {
-  margin: auto;
-  border-radius: 50%;
-  margin-top: -60px;
-  margin-bottom: 60px;
 }
 
 .contenedor h1 {
@@ -172,21 +158,6 @@ body {
   margin-top: 40px;
 }
 
-
-.intro {
-  width: 821px;
-  font-weight: 300;
-}
-
-.intro span {
-  text-decoration: underline;
-}
-
-.about h2 {
-  font-weight: 400;
-  font-size: 24px;
-  text-decoration: none;
-  color: #f3cde2;
 }
 .footer {
   width: 821px;
