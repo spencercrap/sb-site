@@ -7,7 +7,7 @@ body {
 
 .header {
   position: relative;
-  top: 40px;
+  top: 20px;
   width: 821px;
 }
 
@@ -17,7 +17,11 @@ body {
   height: 14px;
   cursor: pointer;
   position: absolute;
-  bottom: 34px;
+  bottom: 38px;
+  animation-name:             rotate; 
+  animation-duration:         0.5s; 
+  animation-iteration-count:  infinite;
+  animation-timing-function: linear;
 }
 
 .button:hover {
@@ -25,6 +29,7 @@ body {
   transition-duration: .7s;
   transition-timing-function: ease-in-out;
   transform: rotate(360deg);
+  
 }
 
 .menu {
@@ -33,7 +38,7 @@ body {
   display: inline-block;
   position: absolute;
   right: 0;
-  bottom: 20px;
+  bottom: 25px;
 }
 
 .menu li {
@@ -64,6 +69,18 @@ body {
   /*padding: 5px;*/
   /*text-decoration: overline;*/
 }
+
+/*.mark {
+  width: 821px;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+}
+
+.mark img {
+margin-left: 800px;
+}*/
 
 .titleIndex {
   width: 821px;
@@ -110,23 +127,23 @@ body {
 .previews:hover {
   margin-top: 8px;
 }
-.transicion {
+.trans {
   transition-duration: .2s;
   transition-timing-function: ease;
   opacity: 1;
 }
 
-.transicion h3 {
+.trans h3 {
   transition-duration: .2s;
   opacity: 0;
   transition-timing-function: ease;
 }
 
-.transicion:hover h3 {
+.trans:hover h3 {
   opacity: 1;
 }
 
-.transicion:hover {
+.trans:hover {
   opacity: .7;
 }
 
@@ -149,7 +166,6 @@ body {
   text-decoration: none;
   text-decoration-color: gray;
   font-size: 36px;
-  padding-top: 450px;
   margin-bottom: auto;
 }
 
@@ -178,31 +194,31 @@ body {
 }
 
 .line {
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid #fac8d2;
   margin:auto;
-  width: 821px;
+  margin-top: 100px;
+  /*margin-bottom: 30px;*/
+  width: 100%;
 }
 
 .line2 {
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid #fac8d2;
   margin: auto;
-  width: 821px;
-
+  width: 100%;
   margin-bottom: 100px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .lineSquare {
   /*margin: auto;*/
   margin-top: -50px;
   /*background: #fac8d2;*/
-  background-image: url(../media/ma.jpg);
   margin-left: auto;
   margin-right: auto;
   margin-top: -130px;
   /*border: 3px dashed #fac8d2;*/
-  width: 819px; 
-  height: 5vw;
+  width: 819px;
+  height: 819px;
 }
 
 .intro {
