@@ -23,9 +23,6 @@ body {
 
 .portada {
   padding: 55px;
-  /*position: relative;*/
-  /*top: 0;*/
-  /*z-index: 99;*/
 }
 
 .logotipo {
@@ -36,13 +33,13 @@ body {
 }
 
 .logotipo img {
-  transition: ease 3s;
+  transition: ease 2s;
 }
 
 .logotipo img:hover {
   /*transition-duration: 1.5s;
   transition-timing-function: ease-in;*/
-  transform: rotate(360deg);
+  transform: rotate(180deg) scale(0.5);
 }
 
 
@@ -165,6 +162,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   padding-top: 50px;
+  color: gray;
 }
 
 .about p {
