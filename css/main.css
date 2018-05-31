@@ -7,39 +7,50 @@
 body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
-  background: linear-gradient(white, #fac9d2);
+  background: linear-gradient(white, #fac9d2, white);
   /*overflow-y:scroll;*/
 }
 
 
 .header {
-  margin: 0 auto;
+  margin: auto;
   height: 100px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .header nav {
-  background: #fac9d2;
+  display: inline-block;
+  border: 1px solid #fac9d2;
+  background: none;
+  width: 900px;
 }
 
 .portada {
-  padding: 55px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 50px;
 }
 
 .logotipo {
+  width: 100%;
   margin: auto;
-  width: 140px;
-  height: 140px;
-  
+  text-align: center;
 }
 
 .logotipo img {
+  margin: auto;
   transition: ease 2s;
+  width: 140px;
+  height: 140px;
 }
 
 .logotipo img:hover {
   /*transition-duration: 1.5s;
   transition-timing-function: ease-in;*/
-  transform: rotate(180deg) scale(0.5);
+  transform: rotate(180deg) scale(0.7);
 }
 
 
@@ -50,10 +61,8 @@ body {
 }
 
 .menu li {
-  padding: 0 auto;
-  margin: 0 auto;
   display: inline-block;
-  width: 293px;
+  width: 250px;
   list-style: none;
   font-size: 13px;
   font-weight: 300;
@@ -69,14 +78,14 @@ body {
 .menu a {
   display: block;
   padding: 20px;
-  color: white;
+  color: #fac9d2;
   text-decoration: none;
   /*line-height: 80%;*/
   transition: ease-in .1s;
 }
 
 .menu a:hover {
-  color: #fac9d2;
+  opacity: 0;
   /*padding: 4px;*/
 }
 .title h1{
