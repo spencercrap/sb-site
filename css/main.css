@@ -14,37 +14,34 @@ body {
 
 .header {
   margin: auto;
-  height: 100px;
-  width: 100%;
-  max-width: 900px;
-}
-
-.header nav {
-  display: inline-block;
-  border: 1px solid #fac9d2;
-  background: none;
-  width: 900px;
+  /*height: 100px;*/
+  /*width: 100%;
+  max-width: 900px;*/
 }
 
 .portada {
-  width: 100%;
-  max-width: 900px;
+  /*width: 100%;
+  max-width: 900px;*/
   margin: 0 auto;
-  padding-bottom: 60px;
-  padding-top: 50px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .logotipo {
-  width: 100%;
-  margin: auto;
-  text-align: center;
+  position: fixed;
+  right: 0;
+  display: block;
+  /*width: 100px;*/
+  /*margin: auto;*/
+  /*text-align: center;*/
 }
 
 .logotipo img {
+  /*float: left;*/
   margin: auto;
   transition: ease 2s;
-  width: 140px;
-  height: 140px;
+  width: 260px;
+  height: 260px;
 }
 
 .logotipo img:hover {
@@ -55,18 +52,24 @@ body {
 
 
 .menu {
-  display: inline-block;
-  overflow: hidden;
-  margin-top: 55px;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-right: 5px;
+  /*border: 1px solid #fac9d2;*/
+  background: none;
+  /*width: 100px;*/
 }
 
 .menu li {
-  display: inline-block;
-  width: 250px;
+  display: block;
+  /*width: 100px;*/
   list-style: none;
-  font-size: 13px;
-  font-weight: 300;
-  /*text-align: center;*/
+  font-size: 45px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
   /*letter-spacing: 5px;*/
 }
 
@@ -77,21 +80,23 @@ body {
 
 .menu a {
   display: block;
-  padding: 20px;
-  color: #fac9d2;
+  /*padding: 20px;*/
+  color: gray;
   text-decoration: none;
   /*line-height: 80%;*/
   transition: ease-in .1s;
 }
 
 .menu a:hover {
-  opacity: 0;
+  opacity: 1;
+  transition-delay: 2s;
+  text-decoration: line-through;
   /*padding: 4px;*/
 }
 .title h1{
   color: gray;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 0;
   font-weight: 300;
   font-size: 1.17em;
 }
