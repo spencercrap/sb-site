@@ -7,10 +7,14 @@
 body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
-  background: linear-gradient(white, #fac9d2, white);
+  height: 100%;
+  /*background: linear-gradient(white, #fac9d2, white);*/
   /*overflow-y:scroll;*/
 }
 
+html {
+  height: 100%;
+}
 
 .header {
   margin: auto;
@@ -28,26 +32,26 @@ body {
 }
 
 .logotipo {
-  position: fixed;
-  right: 0;
+  position: relative;
+  margin: auto;
   display: block;
-  /*width: 100px;*/
-  /*margin: auto;*/
-  /*text-align: center;*/
+  padding-top: 3vw;
+  text-align: center;
 }
 
 .logotipo img {
   /*float: left;*/
   margin: auto;
-  transition: ease 2s;
-  width: 260px;
-  height: 260px;
+  transition: ease 1s;
+  width: 100%;
+  max-width: 40vw;
 }
 
 .logotipo img:hover {
   /*transition-duration: 1.5s;
   transition-timing-function: ease-in;*/
-  transform: rotate(180deg) scale(0.7);
+  /*transform: rotate(180deg) scale(0.7);*/
+  transform: rotate(180deg)
 }
 
 
@@ -56,7 +60,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  padding-right: 5px;
+  
   /*border: 1px solid #fac9d2;*/
   background: none;
   /*width: 100px;*/
@@ -75,24 +79,28 @@ body {
 
 .menu ul {
   text-align: center;
-  overflow: hidden;
 }
 
 .menu a {
   display: block;
-  /*padding: 20px;*/
+  line-height: 1em;
   color: gray;
   text-decoration: none;
   /*line-height: 80%;*/
-  transition: ease-in .1s;
+  transition: ease-in .12s;
 }
 
 .menu a:hover {
   opacity: 1;
-  transition-delay: 2s;
   text-decoration: line-through;
-  /*padding: 4px;*/
+  padding-left: 10px;
+  color: #fac9d2;
 }
+
+.title {
+  text-align: right;
+}
+
 .title h1{
   color: gray;
   width: 100%;
@@ -105,7 +113,7 @@ body {
   font-size: 13px;
   font-weight: 300;
   color: gray;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .title span {
@@ -168,7 +176,7 @@ body {
   width: 900;
   position: relative;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   margin-top: 40px;
 }
 
