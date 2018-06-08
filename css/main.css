@@ -8,8 +8,9 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   height: 100%;
+  background: black;
   /*background: linear-gradient(white, #fac9d2, white);*/
-  /*overflow-y:scroll;*/
+  overflow-y:scroll;
 }
 
 html {
@@ -35,7 +36,7 @@ html {
   position: relative;
   margin: auto;
   display: block;
-  padding-top: 3vw;
+  padding-top: 2vw;
   text-align: center;
 }
 
@@ -71,7 +72,7 @@ html {
   /*width: 100px;*/
   list-style: none;
   font-size: 45px;
-  font-weight: 400;
+  font-weight: 500;
   font-style: italic;
   text-align: left;
   /*letter-spacing: 5px;*/
@@ -84,9 +85,9 @@ html {
 .menu a {
   display: block;
   line-height: 1em;
-  color: gray;
+  color: white;
   text-decoration: none;
-  /*line-height: 80%;*/
+  line-height: 85%;
   transition: ease-in .12s;
 }
 
@@ -102,17 +103,19 @@ html {
 }
 
 .title h1{
-  color: gray;
+  color: white;
   width: 100%;
   margin-top: 0;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.17em;
+  font-style: italic;
 }
 
 .title p {
+  font-style: italic;
   font-size: 13px;
-  font-weight: 300;
-  color: gray;
+  font-weight: 500;
+  color: white;
   padding-bottom: 50px;
 }
 
@@ -141,7 +144,7 @@ html {
 .portafolio {
   font-size: 0px;
   display: flex;
-  width: 100%;
+  width: 110%;
   height: 1350px;
   flex-direction: row;
   flex-wrap: wrap;
@@ -184,14 +187,14 @@ html {
   font-size: 24px;
   font-weight: 400;
   padding-top: 50px;
-  color: gray;
+  color: white;
 }
 
 .about p {
   font-size: 24px;
   font-weight: 300;
   padding-top: 50px;
-  color: gray;
+  color: white;
 }
 
 .about a {
@@ -220,10 +223,12 @@ html {
   position: absolute;
   margin: auto;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
+  font-style: italic;
   padding-top: 195px;
   background: #fac9d2;
-  color: white;
+  letter-spacing: -2px;
+  color: black;
   text-align: center;
 }
 
@@ -237,7 +242,7 @@ html {
   width: 900px;
   font-size: 24px;
   font-weight: 300;
-  color: gray;
+  color: white;
 }
 
 .line {
@@ -266,11 +271,11 @@ html {
 }
 
 .footer a {
-  color: gray;
+  color: white;
 }
 
 .footer h4 {
-  color: gray;
+  color: white;
   font-size: 13px;
   font-weight: 700;
   padding-top: 40px;
@@ -279,7 +284,7 @@ html {
 }
 
 .footer p {
-  color: gray;
+  color: white;
   font-size: 13px;
   font-weight: 400;
   padding-bottom: 20px;
