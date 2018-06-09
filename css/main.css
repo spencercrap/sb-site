@@ -10,6 +10,7 @@ body {
   height: 100%;
   background: black;
   overflow-y:scroll;
+  text-rendering: optimizeLegibility;
 }
 
 html {
@@ -20,10 +21,19 @@ html {
   margin: auto;
 }
 
+.background {
+  text-align: center;
+  background-image: url('../media/background.jpg');
+  background-size: 30vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .portada {
   margin: 0 auto;
   padding-bottom: 0;
   padding-top: 0;
+
 }
 
 .logotipo {
@@ -31,20 +41,19 @@ html {
   margin: auto;
   display: block;
   padding-top: 2vw;
+  padding-bottom: 2vw;
   text-align: center;
 }
 
 .logotipo img {
   /*float: left;*/
   margin: auto;
-  transition: ease 1s;
+  transition: ease 1.25s;
   width: 100%;
   max-width: 40vw;
 }
 
 .logotipo img:hover {
-  /*transition-duration: 1.5s;
-  transition-timing-function: ease-in;*/
   /*transform: rotate(180deg) scale(0.7);*/
   transform: rotate(180deg)
 }
@@ -54,22 +63,16 @@ html {
   display: block;
   position: fixed;
   left: 0;
-  top: 0;
-  
-  /*border: 1px solid #fac9d2;*/
+  top: 3px;
   background: none;
-  /*width: 100px;*/
 }
 
 .menu li {
   display: block;
-  /*width: 100px;*/
   list-style: none;
-  font-size: 45px;
+  font-size: 2.5em;
   font-weight: 400;
-  font-style: italic;
   text-align: left;
-  /*letter-spacing: 5px;*/
 }
 
 .menu ul {
@@ -81,32 +84,44 @@ html {
   line-height: 1em;
   color: white;
   text-decoration: none;
-  line-height: 90%;
+  line-height: 92%;
   transition: ease-in .12s;
 }
 
 .menu a:hover {
+  content: '';
   opacity: 1;
-  text-decoration: line-through;
   padding-left: 10px;
   color: #fac9d2;
 }
 
+.menu a:hover:after {
+  content: 'ﷺ';
+  opacity: 1;
+  color: ghostwhite;
+}
+
+.menu a:after {
+  transition: ease-in .12s;
+  content: '';
+  opacity: 0;
+  padding-left: 8px;
+}
+
 .title {
-  text-align: right;
+  text-align: left;
 }
 
 .title h1{
   color: white;
   width: 100%;
   margin-top: 0;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.17em;
-  font-style: italic;
+  /* letter-spacing: 5px; */
 }
 
 .title p {
-  font-style: italic;
   font-size: 13px;
   font-weight: 500;
   color: white;
@@ -128,12 +143,6 @@ html {
   font-size: 36px;
   padding-top: 20px;
 }
-
-/*.contenedor p {
-  font-weight: 300;
-  font-size: 13px;
-  margin-bottom: 60px;
-}*/
 
 .portafolio {
   font-size: 0px;
@@ -178,17 +187,19 @@ html {
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 60px;
   font-weight: 400;
   padding-top: 50px;
+  padding-bottom: 40px;
   color: white;
+  letter-spacing: 20px;
 }
 
 .about p {
   font-size: 24px;
   font-weight: 300;
   padding-top: 50px;
-  color: white;
+  color: #fac9d2;
 }
 
 .about a {
@@ -201,7 +212,6 @@ html {
 .about a:hover {
   color: #fac9d2;
   padding: 5px;
-  
 }
 
 .about img {
@@ -240,7 +250,7 @@ html {
 }
 
 .line {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fac9d2;
   margin:auto;
   margin-top: 100px;
   width: 100%;
@@ -249,13 +259,12 @@ html {
 .line2 {
   padding: 0;
   margin: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
-  border-top: 1px solid #fac9d2;
-  border-left: 1px solid #fac9d2;
+  border-top: 2px solid #fac9d2;
+  border-left: 2px solid #fac9d2;
   width: 100%;
-  height: 1px;
-  z-index: -1;
+  z-index: 99;
 }
 
 .footer {
@@ -300,6 +309,5 @@ html {
 
 .footer a:hover {
   color: #fac9d2;
-  /*transition-timing-function: ease-in;*/
   padding: 5px;
 }

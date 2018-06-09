@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
   margin: 0;
   height: 100%;
   background: black;
+  text-rendering: optimizeLegibility;
 }
 
 html {
@@ -47,13 +48,10 @@ html {
 
 .menu li {
   display: block;
-  /*width: 100px;*/
   list-style: none;
-  font-size: 45px;
+  font-size: 2.5em;
   font-weight: 400;
-  font-style: italic;
   text-align: left;
-  /*letter-spacing: 5px;*/
 }
 
 .menu ul {
@@ -70,10 +68,23 @@ html {
 }
 
 .menu a:hover {
+  content: '';
   opacity: 1;
-  text-decoration: line-through;
   padding-left: 10px;
   color: #fac9d2;
+}
+
+.menu a:hover:after {
+  content: 'ﷺ';
+  opacity: 1;
+  color: ghostwhite;
+}
+
+.menu a:after {
+  transition: ease-in .12s;
+  content: '';
+  opacity: 0;
+  padding-left: 8px;
 }
 
 .contenedor {
