@@ -31,9 +31,7 @@ html {
 
 .portada {
   margin: 0 auto;
-  padding-bottom: 0;
-  padding-top: 0;
-
+  padding: 0;
 }
 
 .logotipo {
@@ -70,7 +68,7 @@ html {
 .menu li {
   display: block;
   list-style: none;
-  font-size: 2.5em;
+  font-size: 2vw;
   font-weight: 400;
   text-align: left;
 }
@@ -82,22 +80,22 @@ html {
 .menu a {
   display: block;
   line-height: 1em;
-  color: white;
+  color: ghostwhite;
   text-decoration: none;
-  line-height: 92%;
+  line-height: 91.5%;
   transition: ease-in .12s;
 }
 
 .menu a:hover {
   content: '';
   opacity: 1;
-  padding-left: 10px;
   color: #fac9d2;
 }
 
 .menu a:hover:after {
   content: 'ﷺ';
   opacity: 1;
+  padding-left: 13px;
   color: ghostwhite;
 }
 
@@ -113,19 +111,21 @@ html {
 }
 
 .title h1{
-  color: white;
+  color: ghostwhite;
   width: 100%;
   margin-top: 0;
   font-weight: 300;
   font-size: 1.17em;
-  /* letter-spacing: 5px; */
+  text-align: left;
+  width: 100%;
+  max-width: 900px;
 }
 
 .title p {
+
   font-size: 13px;
   font-weight: 500;
-  color: white;
-  padding-bottom: 50px;
+  color: ghostwhite;
 }
 
 .title span {
@@ -139,10 +139,10 @@ html {
   margin: auto;
 }
 
-.contenedor h1 {
+/* .contenedor h1 {
   font-size: 36px;
   padding-top: 20px;
-}
+} */
 
 .portafolio {
   font-size: 0px;
@@ -180,31 +180,29 @@ html {
 
 .about {
   width: 900;
-  position: relative;
   margin: auto;
   margin-bottom: 0px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .about h2 {
   font-size: 60px;
   font-weight: 400;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  color: white;
+  padding-top: 10vw;
+  padding-bottom: 5vw;
+  color: ghostwhite;
   letter-spacing: 20px;
 }
 
 .about p {
   font-size: 24px;
   font-weight: 300;
-  padding-top: 50px;
   color: #fac9d2;
 }
 
 .about a {
   text-decoration: none;
-  color: white;
+  color: ghostwhite;
   transition: ease-in .1s;
   font-weight: 300;
 }
@@ -217,7 +215,7 @@ html {
 .about img {
   margin: auto;
   border-radius: 50%;
-  margin-bottom: 60px;
+  margin-bottom: 5vw;
 }
 
 
@@ -246,7 +244,7 @@ html {
   width: 900px;
   font-size: 24px;
   font-weight: 300;
-  color: white;
+  color: ghostwhite;
 }
 
 .line {
@@ -274,11 +272,11 @@ html {
 }
 
 .footer a {
-  color: white;
+  color: ghostwhite;
 }
 
 .footer h4 {
-  color: white;
+  color: ghostwhite;
   font-size: 13px;
   font-weight: 700;
   padding-top: 40px;
@@ -287,7 +285,7 @@ html {
 }
 
 .footer p {
-  color: white;
+  color: ghostwhite;
   font-size: 13px;
   font-weight: 400;
   padding-bottom: 20px;
@@ -295,7 +293,7 @@ html {
 }
 
 .footer span {
-  color: white;
+  color: ghostwhite;
   font-weight: 700;
 }
 
