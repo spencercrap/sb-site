@@ -49,7 +49,7 @@ html {
 .menu li {
   display: block;
   list-style: none;
-  font-size: 2vw;
+  font-size: 4vw;
   font-weight: 400;
   text-align: left;
 }
@@ -70,15 +70,15 @@ html {
 .menu a:hover {
   content: '';
   opacity: 1;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   color: #fac9d2;
 }
 
 .menu a:hover:after {
-  content: 'ﷺ';
+  content: 'مرحبا';
   opacity: 1;
   color: ghostwhite;
-  padding-left: 13px;
+  padding-left: 5px;
 }
 
 .menu a:after {
@@ -130,8 +130,8 @@ html {
 }
 
 .footer h4 {
-  color: white;
-  font-size: 13px;
+  color: #fac9d2;
+  font-size: 15px;
   font-weight: 700;
   padding-top: 40px;
   padding-bottom: 15px;
@@ -139,21 +139,21 @@ html {
 }
 
 .footer p {
-  color: white;
-  font-size: 13px;
+  color: #fac9d2;
+  font-size: 15px;
   font-weight: 400;
   padding-bottom: 20px;
   text-align: justify;
 }
 
 .footer span {
-  color: white;
+  color: #fac9d2;
   font-weight: 700;
 }
 
 .footer a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 1px;
   transition: ease-in .1s;

@@ -46,14 +46,14 @@ html {
 .logotipo img {
   /*float: left;*/
   margin: auto;
-  transition: ease 1.25s;
+  transition: ease-in-out 1s;
   width: 100%;
   max-width: 40vw;
 }
 
 .logotipo img:hover {
   /*transform: rotate(180deg) scale(0.7);*/
-  transform: rotate(180deg)
+  transform: rotate(180deg);
 }
 
 
@@ -68,7 +68,7 @@ html {
 .menu li {
   display: block;
   list-style: none;
-  font-size: 2vw;
+  font-size: 2.2vw;
   font-weight: 400;
   text-align: left;
 }
@@ -83,27 +83,30 @@ html {
   color: ghostwhite;
   text-decoration: none;
   line-height: 91.5%;
-  transition: ease-in .12s;
+  /* transition: ease-in .12s; */
 }
 
 .menu a:hover {
   content: '';
   opacity: 1;
+  /* padding-left: 5px; */
   color: #fac9d2;
 }
 
 .menu a:hover:after {
-  content: 'ﷺ';
+  content: 'الله';
+  /* content: 'مرحبا'; */
+  /* content: 'ﷺ'; */
   opacity: 1;
-  padding-left: 13px;
+  padding-left: 6px;
   color: ghostwhite;
 }
 
 .menu a:after {
-  transition: ease-in .12s;
+  /* transition: ease-in .12s; */
   content: '';
   opacity: 0;
-  padding-left: 8px;
+  /* padding-left: 8px; */
 }
 
 .title {
@@ -139,10 +142,57 @@ html {
   margin: auto;
 }
 
-/* .contenedor h1 {
-  font-size: 36px;
-  padding-top: 20px;
-} */
+.content {
+  margin: auto;
+  overflow: hidden;
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: ghostwhite;
+  padding-top: 15vw;
+  width: 900px;
+}
+
+.content article {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  height: 1000px;
+}
+
+.content img {
+  width: 450px;
+  height: 450px;
+}
+
+.content h3 {
+  display: block;
+  width: 450px;
+  text-align: left;
+  font-size: 35px;
+}
+
+.content h5 {
+  display: block;
+  width: 450px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.content p {
+  display: block;
+  width: 450px;
+  text-align: left;
+  font-size: 16px;
+  height: 450px;
+  overflow: hidden;
+  border-left: 3px solid pink;
+  padding-left: 2em;
+  margin-left: 2em;
+  margin-top: 0;
+}
 
 .portafolio {
   font-size: 0px;
@@ -226,11 +276,11 @@ html {
   margin: auto;
   font-size: 36px;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   padding-top: 195px;
   background: #fac9d2;
   letter-spacing: -2px;
-  color: black;
+  color: ghostwhite;
   text-align: center;
 }
 
@@ -276,8 +326,8 @@ html {
 }
 
 .footer h4 {
-  color: ghostwhite;
-  font-size: 13px;
+  color: #fac9d2;
+  font-size: 15px;
   font-weight: 700;
   padding-top: 40px;
   padding-bottom: 15px;
@@ -285,8 +335,8 @@ html {
 }
 
 .footer p {
-  color: ghostwhite;
-  font-size: 13px;
+  color: #fac9d2;
+  font-size: 15px;
   font-weight: 400;
   padding-bottom: 20px;
   text-align: justify;
@@ -299,7 +349,7 @@ html {
 
 .footer a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 1px;
   transition: ease-in .1s;
