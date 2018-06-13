@@ -44,7 +44,6 @@ html {
 }
 
 .logotipo img {
-  /*float: left;*/
   margin: auto;
   transition: ease-in-out 1s;
   width: 100%;
@@ -52,7 +51,6 @@ html {
 }
 
 .logotipo img:hover {
-  /*transform: rotate(180deg) scale(0.7);*/
   transform: rotate(180deg);
 }
 
@@ -82,8 +80,8 @@ html {
   line-height: 1em;
   color: ghostwhite;
   text-decoration: none;
-  line-height: 91.5%;
-  /* transition: ease-in .12s; */
+  line-height: 98%;
+  transition: ease-in .12s;
 }
 
 .menu a:hover {
@@ -94,16 +92,14 @@ html {
 }
 
 .menu a:hover:after {
-  content: 'الله';
-  /* content: 'مرحبا'; */
-  /* content: 'ﷺ'; */
+  content: 'مرحبا';
   opacity: 1;
   padding-left: 6px;
   color: ghostwhite;
 }
 
 .menu a:after {
-  /* transition: ease-in .12s; */
+  transition: ease-in .12s;
   content: '';
   opacity: 0;
   /* padding-left: 8px; */
@@ -142,6 +138,17 @@ html {
   margin: auto;
 }
 
+.steban img {
+  display: block;
+  padding-top: 15em;
+}
+
+.steban figcaption {
+  font-style: italic;
+  padding-top: 15px;
+  color: #fac9d2;
+}
+
 .content {
   margin: auto;
   overflow: hidden;
@@ -159,7 +166,7 @@ html {
   display: flex;
   flex-direction: row;
   width: 450px;
-  height: 1000px;
+  height: 450px;
 }
 
 .content img {
@@ -167,28 +174,14 @@ html {
   height: 450px;
 }
 
-.content h3 {
-  display: block;
-  width: 450px;
-  text-align: left;
-  font-size: 35px;
-}
-
-.content h5 {
-  display: block;
-  width: 450px;
-  text-align: left;
-  font-size: 16px;
-}
-
 .content p {
-  display: block;
+  display: inline-block;
   width: 450px;
   text-align: left;
   font-size: 16px;
   height: 450px;
   overflow: hidden;
-  border-left: 3px solid pink;
+  border-left: 1px solid pink;
   padding-left: 2em;
   margin-left: 2em;
   margin-top: 0;
@@ -300,7 +293,7 @@ html {
 .line {
   border-bottom: 1px solid #fac9d2;
   margin:auto;
-  margin-top: 100px;
+  margin-top: 15em;
   width: 100%;
 }
 
@@ -317,7 +310,7 @@ html {
 
 .footer {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 2em;
   margin-bottom: 30px;
 }
 
