@@ -8,7 +8,8 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   height: 100%;
-  background: black;
+  background: #686ead;
+  /* background: #666666; */
   overflow-y:scroll;
   text-rendering: optimizeLegibility;
 }
@@ -68,7 +69,7 @@ html {
 .menu {
   display: block;
   position: fixed;
-  left: 0;
+  left: 1vw;
   top: 1vw;
   background: none;
 }
@@ -86,9 +87,7 @@ html {
 }
 
 .menu a span {
-  /* display: block; */
   margin-bottom: 1em;
-  /* opacity: .8; */
   color: #fac9d2;
   font-weight: 300;
 }
@@ -169,7 +168,7 @@ html {
 
 .content {
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 0;
   display: flex;
   flex-wrap: wrap;
@@ -198,11 +197,16 @@ html {
   text-align: left;
   font-size: 16px;
   height: 450px;
-  overflow: hidden;
-  border-left: 1px solid pink;
+  /* overflow: hidden; */
+  /* border-left: 1px solid pink; */
   padding-left: 2em;
   margin-left: 2em;
   margin-top: 0;
+}
+
+.content p span {
+  color: #fac9d2;
+  font-weight: 700;
 }
 
 .portafolio {
@@ -210,6 +214,7 @@ html {
   display: flex;
   width: 110%;
   height: 1350px;
+  margin-top: 13vw;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -248,11 +253,17 @@ html {
 
 .about h2 {
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 10vw;
   padding-bottom: 5vw;
   color: ghostwhite;
   letter-spacing: 20px;
+  text-align: right;
+}
+
+.about h2 span {
+  color: #fac9d2;
+  font-weight: 700;
 }
 
 .about p {
@@ -320,7 +331,7 @@ html {
   margin: 0;
   position: fixed;
   top: 0;
-  border-top: 3px solid #fac9d2;
+  border-top: 2px solid #fac9d2;
   width: 100%;
   z-index: 99;
 }
