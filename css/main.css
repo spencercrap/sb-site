@@ -8,8 +8,8 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   height: 100%;
-  background: #686ead;
-  /* background: #666666; */
+  /* background: #686ead; */
+  background: #222222;
   overflow-y:scroll;
   text-rendering: optimizeLegibility;
 }
@@ -56,10 +56,6 @@ html {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
-/* .logotipo img:hover {
- transform: scale(0.6,2);
-} */
 
 @keyframes rotate {
     from {transform: rotate(0deg);}
@@ -162,8 +158,17 @@ html {
 
 .steban figcaption {
   padding-top: 15px;
-  color: #fac9d2;
   font-weight: 300;
+}
+
+.steban figcaption a {
+  text-decoration: none;
+  color: #fac9d2;
+  transition: ease-in .1s;
+}
+
+.steban figcaption a:hover {
+  padding: 5px;
 }
 
 .steban figcaption span {
@@ -206,6 +211,7 @@ html {
   padding-left: 2em;
   margin-left: 2em;
   margin-top: 0;
+  line-height: 1.5em;
 }
 
 .content p span {
@@ -344,7 +350,7 @@ html {
 .footer {
   width: 100%;
   margin-top: 5em;
-  margin-bottom: 30px;
+  margin-bottom: 5em;
 }
 
 .footer a {
