@@ -41,15 +41,15 @@ html {
 .menu {
   display: block;
   position: fixed;
-  left: 0;
-  top: 1vw;
+  left: 4.8vw;
+  top: 2vw;
   background: none;
 }
 
 .menu li {
   display: block;
   list-style: none;
-  font-size: 1.8vw;
+  font-size: 1.2vw;
   font-weight: 300;
   text-align: left;
 }
@@ -60,7 +60,7 @@ html {
 
 .menu a {
   display: block;
-  line-height: 1.08em;
+  line-height: 1.5em;
   color: #aaaaaa;
   text-decoration: none;
   /* line-height: 98%; */
