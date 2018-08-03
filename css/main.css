@@ -9,13 +9,13 @@ body {
   margin: 0;
   height: 100%;
   /* background: #686ead; */
-  background: #eeeeee;
+  /* background: #eeeeee; */
   overflow-y:scroll;
   text-rendering: optimizeLegibility;
 }
 
 html {
-  width: 100%
+  width: 100%;
   height: 100%;
 }
 
@@ -34,51 +34,29 @@ html {
 .portada {
   margin: 0 auto;
   padding: 0;
+  width: 100%;
+  height: 6.5vw;
+  background: white;
+  position: fixed;
+  top: 0;
 }
 
-.logotipo {
-  /* position: absolute; */
-  /* margin: auto; */
-  /* display: block; */
-  /* right: 0; */
-  /* bottom: 0; */
-  padding-top: 1vw;
-  /* padding-bottom: 2vw; */
-  /* text-align: center; */
-}
-
-.logotipo img {
-  /* margin: auto; */
-  /* transition: ease-in-out 1s; */
-  width: 2000px;
-  /* max-width: 40vw; */
-  transition-property: transform;
-  transition-duration: 2s;
-  animation-name: rotate;
-  animation-duration: 128s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(180deg);}
-}
 
 .menu {
   display: block;
   position: fixed;
-  left: 4.8vw;
+  left: 3vw;
   top: 2vw;
-  background: none;
+  padding-bottom: 40px;
 }
 
 .menu li {
-  display: block;
+  display: inline-block;
   list-style: none;
-  font-size: 1.2vw;
+  font-size: 1.2em;
   font-weight: 300;
   text-align: left;
+  padding-left: 15px;
 }
 
 .menu ul {
@@ -108,12 +86,12 @@ html {
   color: #fac9d2;
 }
 
-.menu a:hover:after {
+/* .menu a:hover:after {
   content: 'مرحبا';
   opacity: 1;
   padding-left: 6px;
   color: #aaaaaa;
-}
+} */
 
 .menu a:after {
   transition: ease-in .12s;
@@ -122,8 +100,43 @@ html {
   /* padding-left: 8px; */
 }
 
+.logotipo {
+  /* position: absolute; */
+  /* margin: auto; */
+  /* display: block; */
+  /* right: 0; */
+  /* bottom: 0; */
+  padding-top: 6.5vw;
+  padding-left: 16vw;
+
+  /* padding-bottom: 2vw; */
+  /* text-align: center; */
+}
+
+.logotipo img {
+  /* margin: auto; */
+  /* transition: ease-in-out 1s; */
+  /* width: 2000px; */
+  width: 145vw;
+  /* max-width: 40vw; */
+  transition-property: transform;
+  transition-duration: 2s;
+  animation-name: rotate;
+  animation-duration: 360s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: -1;
+  position: relative;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(180deg);}
+}
+
 .title {
   position: relative;
+  z-index: -1;
 }
 
 .title h3 {
@@ -138,7 +151,8 @@ html {
   display: inline-block;
   color: #fac9d2;
   font-weight: 300;
-  padding: 80px 0;
+  padding-top: 65px;
+  padding-bottom: 65px;
   font-size: 1.8vw;
   /*
   margin: 30px 0;
@@ -154,12 +168,15 @@ html {
   width: 100%;
   max-width: 900px;
   margin: auto;
+  position: inherit;
 }
 
 .steban img {
   opacity: .1;
   display: block;
   padding-top: 20em;
+  position: relative;
+  z-index: -1;
 }
 
 .steban figcaption {
@@ -226,6 +243,7 @@ html {
 }
 
 .portafolio {
+  position: inherit;
   font-size: 0px;
   display: flex;
   width: 110%;
@@ -234,6 +252,10 @@ html {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+}
+.portafolio img {
+  position: relative;
+  z-index: -2;
 }
 
 .portafolio h3 {
@@ -249,6 +271,7 @@ html {
   /* letter-spacing: -2px; */
   color: #eeeeee;
   text-align: center;
+  z-index: -1;
 }
 
 .trans {
@@ -258,11 +281,11 @@ html {
 
 .trans h3 {
   transition: ease-in .3s;
-  opacity: 0;
+  opacity: 1;
 }
 
 .trans:hover h3 {
-  opacity: 1;
+  opacity: 0;
 }
 
 .trans img {
@@ -275,7 +298,8 @@ html {
 }
 
 .about {
-  width: 900;
+  position: inherit;
+  width: 900px;
   margin: auto;
   margin-bottom: 0px;
   margin-top: 20px;
@@ -321,9 +345,10 @@ html {
 }
 
 .textarea {
-  padding-top: 5vw;
+  padding-top: 10vw;
   height: 900px;
   margin: auto;
+  z-index: -1;
 }
 
 .textarea p {
