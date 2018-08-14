@@ -9,7 +9,7 @@ body {
   margin: 0;
   height: 100%;
   /* background: #686ead; */
-  /* background: #eeeeee; */
+  background: black;
   overflow-y:scroll;
   text-rendering: optimizeLegibility;
 }
@@ -35,8 +35,8 @@ html {
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  height: 6.5vw;
-  background: white;
+  height: 78px;
+  background: black;
   position: fixed;
   top: 0;
 }
@@ -45,8 +45,8 @@ html {
 .menu {
   display: block;
   position: fixed;
-  left: 3vw;
-  top: 2vw;
+  left: 20px;
+  top: 23px;
   padding-bottom: 40px;
 }
 
@@ -72,7 +72,7 @@ html {
 .menu a {
   display: block;
   line-height: 1.5em;
-  color: #aaaaaa;
+  color: ghostwhite;
   text-decoration: none;
   /* line-height: 98%; */
   transition: ease-in .12s;
@@ -80,7 +80,8 @@ html {
 }
 
 .menu a:hover {
-  content: '';
+  background: pink;
+  content: ' ';
   opacity: 1;
   /* padding-left: 5px; */
   color: #fac9d2;
@@ -235,6 +236,8 @@ html {
   margin-left: 2em;
   margin-top: 0;
   line-height: 1.5em;
+  color: #fac9d2;
+  font-weight: 300;
 }
 
 .content p span {
@@ -388,7 +391,7 @@ html {
 
 .footer h4 {
   color: #fac9d2;
-  font-size: 1.4vw;
+  font-size: 1.2em;
   font-weight: 300;
   padding-top: 40px;
   padding-bottom: 15px;
@@ -410,7 +413,7 @@ html {
 
 .footer a {
   text-decoration: none;
-  font-size: .8vw;
+  font-size: 0.8em
   font-weight: 300;
   letter-spacing: 1px;
   transition: ease-in .1s;
